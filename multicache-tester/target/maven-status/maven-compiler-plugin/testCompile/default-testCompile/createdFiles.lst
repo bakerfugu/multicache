@@ -1,0 +1,4 @@
+com/tvg/cachetests/CaffeineEnabledButNoCachesTest.class
+com/tvg/cachetests/RedisEnabledButNoCachesTest.class
+com/tvg/cachetests/CaffeineDisabledButCachesExistTest.class
+com/tvg/cachetests/MulticacheTest.class

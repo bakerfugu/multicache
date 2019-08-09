@@ -1,0 +1,5 @@
+/Users/baker/IdeaProjects/multicache-custom-starter/multicache-tester/src/test/java/com/tvg/cachetests/MulticacheTest.java
+/Users/baker/IdeaProjects/multicache-custom-starter/multicache-tester/src/test/java/com/tvg/cachetests/RedisDisabledButCachesExistTest.java
+/Users/baker/IdeaProjects/multicache-custom-starter/multicache-tester/src/test/java/com/tvg/cachetests/CaffeineDisabledButCachesExistTest.java
+/Users/baker/IdeaProjects/multicache-custom-starter/multicache-tester/src/test/java/com/tvg/cachetests/RedisEnabledButNoCachesTest.java
+/Users/baker/IdeaProjects/multicache-custom-starter/multicache-tester/src/test/java/com/tvg/cachetests/CaffeineEnabledButNoCachesTest.java
