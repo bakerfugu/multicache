@@ -12,7 +12,7 @@ You'll need to download the custom starter because I have not uploaded this proj
 </dependency>
 ```
 
-Make sure your have redis and caffeine aswell.
+Make sure your have redis and caffeine aswell. Multicache assumes that you have provided the connection information to the redis db you want to use.
 
 That's most of the hard work. From this point, you can now use your application.properties file to have unlimited redis and caffeine caches with unique configurations, for example:
 ```
@@ -28,7 +28,7 @@ tvg.multicache.caffeine.other-local-contacts.spec=expireAfterAccess=50s,recordSt
 
 The above configuration sets up 4 caches. Redis caches are `contacts` and `my-other-redis-cache`, and Caffeine caches are `local-contacts` and `other-local-contacts`.
 
-Now, anywhere where you would use the Spring `@Cacheable` annotation you can use `@Cacheable("CACHE_NAME")` and multicache will use the cache you configured with name. For example: 
+Now, anywhere where you would use the Spring `@Cacheable` annotation you can use `@Cacheable("CACHE_NAME")` and multicache will use the cache you configured with that name. For example: 
 ```
 @Cacheable("contacts")
 public Contact findById(@PathVariable long id) {
