@@ -1,5 +1,5 @@
 # multicache
-For easy and modular customization of multiple local and remote caching with redis and caffeine for SpringBoot
+Easily setup and configure multiple local and remote caching for microservice architectures using redis and caffeine for SpringBoot
 
 ## How do I use it?
 
