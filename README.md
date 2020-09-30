@@ -28,7 +28,7 @@ tvg.multicache.caffeine.other-local-contacts.spec=expireAfterAccess=50s,recordSt
 
 The above configuration sets up 4 caches. Redis caches are `contacts` and `my-other-redis-cache`, and Caffeine caches are `local-contacts` and `other-local-contacts`.
 
-Now, anywhere where you would use the Spring `@Cacheable` annotation you can use `@Cacheable("CACHE_NAME")`. For example: 
+Now, anywhere where you would use the Spring `@Cacheable` annotation you can use `@Cacheable("CACHE_NAME")` and multicache will use the cache you configured with name. For example: 
 ```
 @Cacheable("contacts")
 public Contact findById(@PathVariable long id) {
